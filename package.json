@@ -1,0 +1,15 @@
+{
+  "name": "spoc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/spoc",
+    "packages/connector"
+  ],
+  "dependencies": {
+    "@types/serialport": "^8.0.1",
+    "serialport": "^9.0.7"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "sourceRoot": "src",
+    "outDir": "build",
+    "lib": ["DOM", "ESNext"]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
